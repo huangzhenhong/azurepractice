@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzurePractice.ConsoleApp.ServiceBus", "AzurePractice.ConsoleApp.ServiceBus\AzurePractice.ConsoleApp.ServiceBus.csproj", "{EC253556-23B0-479B-A240-56277EF8C4D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzurePractice.ConsoleApp.Topics", "AzurePractice.ConsoleApp.Topics\AzurePractice.ConsoleApp.Topics.csproj", "{6AC7470C-7F9A-47A0-BCDA-AD45D510BABB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzurePractice.Model", "AzurePractice.Model\AzurePractice.Model.csproj", "{A9B2EFA9-3169-43ED-AC1A-0D101F73C6DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzurePractice.FunctionApp.ServiceBusQueue", "AzurePractice.FunctionApp.ServiceBusQueue\AzurePractice.FunctionApp.ServiceBusQueue.csproj", "{46171FA1-C473-476E-9E9D-83F16748B958}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzurePractice.FunctionApp.EventGrid", "AzurePractice.FunctionApp.EventGrid\AzurePractice.FunctionApp.EventGrid.csproj", "{B3145245-4D1F-42F9-AF8F-A399930794C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzurePractice.StorageDemo", "AzurePractice.StorageDemo\AzurePractice.StorageDemo.csproj", "{10C3DEE5-332A-461A-83FF-B07908ABF1AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC253556-23B0-479B-A240-56277EF8C4D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC253556-23B0-479B-A240-56277EF8C4D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC253556-23B0-479B-A240-56277EF8C4D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC253556-23B0-479B-A240-56277EF8C4D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AC7470C-7F9A-47A0-BCDA-AD45D510BABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AC7470C-7F9A-47A0-BCDA-AD45D510BABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AC7470C-7F9A-47A0-BCDA-AD45D510BABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AC7470C-7F9A-47A0-BCDA-AD45D510BABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B2EFA9-3169-43ED-AC1A-0D101F73C6DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B2EFA9-3169-43ED-AC1A-0D101F73C6DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B2EFA9-3169-43ED-AC1A-0D101F73C6DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B2EFA9-3169-43ED-AC1A-0D101F73C6DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46171FA1-C473-476E-9E9D-83F16748B958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46171FA1-C473-476E-9E9D-83F16748B958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46171FA1-C473-476E-9E9D-83F16748B958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46171FA1-C473-476E-9E9D-83F16748B958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3145245-4D1F-42F9-AF8F-A399930794C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3145245-4D1F-42F9-AF8F-A399930794C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3145245-4D1F-42F9-AF8F-A399930794C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3145245-4D1F-42F9-AF8F-A399930794C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10C3DEE5-332A-461A-83FF-B07908ABF1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C3DEE5-332A-461A-83FF-B07908ABF1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C3DEE5-332A-461A-83FF-B07908ABF1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C3DEE5-332A-461A-83FF-B07908ABF1AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F359771-6A7A-43F5-81EF-285F826BFF20}
+	EndGlobalSection
+EndGlobal
